@@ -1,6 +1,6 @@
 (function() {
 	var up='Наверх';
-	$('body').append('<div class="go-up" style="display:none"><div class="up"><span class="glyphicon glyphicon-triangle-top"></span> <b>'+up+'</b></div><div class="down" style="display:none"><span class="glyphicon glyphicon-triangle-bottom"></span></div><style>.go-up{position: fixed;width: 120px;background-color: white;opacity: 0.2;left: 0;top:0;height: 100%;z-index: -1;cursor: pointer;padding: 10px 15px;}.go-up:hover{opacity: 0.5;}</style></div>');
+	$('body').append('<div class="go-up" style="display:none"><div class="up"><span class="glyphicon glyphicon-triangle-top"></span> <b>'+up+'</b></div><div class="down" style="display:none"><span class="glyphicon glyphicon-triangle-bottom"></span></div><style>.go-up{position: fixed;width: 120px;background-color: white;opacity: 0.2;left: 0;top:0;height: 100%;cursor: pointer;padding: 10px 15px;}.go-up:hover{opacity: 0.5;}</style></div>');
 	var $el = $('.go-up'),
 		
 		lastTop = 0,
